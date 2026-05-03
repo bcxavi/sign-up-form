@@ -157,6 +157,10 @@ body {
   gap: 24px;
 }
 
+.form-row + .form-row {
+  margin-top: 20px;
+}
+
 .form-group {
   flex: 1;
 
@@ -203,5 +207,23 @@ body {
 
 .input-wrapper input {
   width: 100%;
-  padding: 12px 12px 12px 42px;
+  padding: 12px 42px 12px 42px;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.toggle-password img {
+  width: 18px;
+  height: 18px;
+  opacity: 0.6;
 }
