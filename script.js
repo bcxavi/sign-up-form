@@ -10,9 +10,7 @@ toggleButtons.forEach((button) => {
 
     input.type = isHidden ? "text" : "password";
 
-    icon.src = isHidden
-      ? "images/eye-closed.svg"
-      : "images/eye.svg";
+    icon.src = isHidden ? "images/eye-closed.svg" : "images/eye.svg";
   });
 });
 
