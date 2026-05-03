@@ -284,6 +284,9 @@ body {
   color: #dc2626;
 }
 
+.password-error.show {
+  display: block;
+}
 .input-wrapper input.input-error {
   border-color: #dc2626;
 }
