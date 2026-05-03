@@ -31,6 +31,7 @@ body {
   object-fit: cover;
   display: block;
 }
+
 .logo-banner {
   position: absolute;
   top: 20%;
@@ -261,6 +262,7 @@ body {
   line-height: 1.4;
   color: #4b5563;
 }
+
 .terms-text a {
   color: #8b5e3c;
   font-weight: 600;
@@ -276,6 +278,16 @@ body {
   cursor: not-allowed;
 }
 
+.form-group input:focus:invalid,
+.input-wrapper input.input-error {
+  border-color: #dc2626;
+}
+
+.form-group input:focus:invalid,
+.input-wrapper input.input-error:focus {
+  box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.15);
+}
+
 .password-error {
   display: none;
   margin: 8px 0 0;
@@ -286,12 +298,4 @@ body {
 
 .password-error.show {
   display: block;
-}
-.input-wrapper input.input-error {
-  border-color: #dc2626;
-}
-
-.input-wrapper input.input-error:focus {
-  border-color: #dc2626;
-  box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.15);
 }
