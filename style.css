@@ -46,12 +46,17 @@ body {
   background: rgba(0, 0, 0, 0.45);
 }
 
+.brand-text {
+  display: flex;
+  flex-direction: column;
+}
+
 .logo-banner img {
   width: 48px;
   height: auto;
 }
 
-.logo {
+.logo-title {
   margin: 0;
   color: white;
   font-size: 2rem;
