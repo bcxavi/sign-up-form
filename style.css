@@ -40,21 +40,21 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 16px;
+  gap: 12px;
 
   padding: 20px;
   background: rgba(0, 0, 0, 0.45);
 }
 
 .logo-banner img {
-  width: 72px;
+  width: 48px;
   height: auto;
 }
 
 .logo {
   margin: 0;
   color: white;
-  font-size: 4rem;
+  font-size: 2rem;
   font-family: "Momo Trust Display", sans-serif;
   letter-spacing: 2px;
 }
