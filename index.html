@@ -15,6 +15,7 @@
   <body>
     <main class="signup-page">
       <section class="image-panel">
+        <div class="image-panel-inner">
         <img src="images/bike.png" alt="Barcelona street with bicycle">
 
         <div class="logo-banner">
@@ -24,6 +25,7 @@
             <h1 class="logo-title">Barcelona</h1>
             <p class="logo-subtitle">RIDES</p>
           </div>
+        </div>
         </div>
       </section>
 
@@ -45,41 +47,41 @@
         </section>
 
         <section class="signup-form-section">
-          <form class="signup-form">
+        <form class="signup-form">
             <h2>Create your account</h2>
 
             <div class="form-row">
-              <div class="form-group">
+            <div class="form-group">
                 <label for="first-name">First name</label>
 
                 <div class="input-wrapper">
-                  <img src="images/user.svg" alt="" class="input-icon">
+                <img src="images/user.svg" alt="" class="input-icon">
 
-                  <input
+                <input
                     type="text"
                     id="first-name"
                     name="first-name"
                     autocomplete="given-name"
-                  >
+                >
                 </div>
-              </div>
+            </div>
 
-              <div class="form-group">
+            <div class="form-group">
                 <label for="last-name">Last name</label>
 
                 <div class="input-wrapper">
-                  <img src="images/user.svg" alt="" class="input-icon">
+                <img src="images/user.svg" alt="" class="input-icon">
 
-                  <input
+                <input
                     type="text"
                     id="last-name"
                     name="last-name"
                     autocomplete="family-name"
-                  >
+                >
                 </div>
-              </div>
-
             </div>
+            </div>
+
             <div class="form-row">
             <div class="form-group">
                 <label for="email">Email</label>
@@ -111,6 +113,7 @@
                 </div>
             </div>
             </div>
+
             <div class="form-row">
             <div class="form-group">
                 <label for="password">Password</label>
@@ -124,12 +127,13 @@
                     name="password"
                     autocomplete="new-password"
                 >
-                  <button
+
+                <button
                     type="button"
                     class="toggle-password"
                     aria-label="Show password"
                 >
-                    <img src="images/eye.svg" alt="">
+                    <img src="images/eye.svg" alt="" class="eye-icon">
                 </button>
                 </div>
             </div>
@@ -146,11 +150,27 @@
                     name="confirm-password"
                     autocomplete="new-password"
                 >
+
+                <button
+                    type="button"
+                    class="toggle-password"
+                    aria-label="Show password"
+                >
+                    <img src="images/eye.svg" alt="" class="eye-icon">
+                </button>
                 </div>
             </div>
             </div>
-          </form>
+            <button type="submit" class="create-account-btn" disabled>
+            Create Account
+            </button>
+        </form>
+        <p class="terms-text">
+        By creating an account, you agree our
+        <a href="#">Terms of Service and Privacy Policy</a>.
+        </p>
         </section>
+
       </section>
     </main>
     <script src="script.js"></script>
